@@ -3,7 +3,7 @@
 This is an example of a failed project. Last fall (2018), I wanted to play Old School Musical with a Playstation 2 controller with the vibration on and I almost lost my sanity in the process.
 
 # Overview
-On the PSoC side, one core get the input from the PS2 controller while the other process the BLE stack. The core communicate through an IPC pipe and a shared .bss section. 
+On the PSoC side, one core get the input from the PS2 controller while the other process the BLE stack. The cores communicate through an IPC pipe and a shared .bss section. 
 
 On the PC side, a user mode driver extend the DirectInput device capabilities to include rudimentary force feedback.
 
